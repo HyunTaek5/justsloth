@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://justsloth.com/sitemap-index.xml
+Host: https://justsloth.com
