@@ -1,0 +1,33 @@
+1:"$Sreact.fragment"
+2:I[42887,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/0ha1_a_hj_sg4.js"],"PostClient"]
+6:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T1196,<hr>
+<h1>AWS - EBS 용량 관리</h1>
+<p>EBS 용량 관리</p>
+<h2>개요</h2>
+<p>AWS EC2를 사용하다보면 처음 인스턴스를 생성할 때, EBS 용량을 작게 할당하여 추후 EOF 에러가 발생하는 경우가 있다. AWS EC2 관리 대시보드에서 GUI로 쉽게 EBS 볼륨 크기를 조절하여 해당 이슈를 해결할 수 있다.</p>
+<p>EBS 볼륨 크기를 늘리고 동일 작업을 재실행하면 여전히 EOF 에러가 발생하는데 볼륨의 크기는 증가시켰지만, 증가한 볼륨이 현재 파티션에 포함되어 있지않기 때문에 여전히 EOF 에러가 발생한다. EBS 볼륨의 파일 시스템을 확장해야 정상적으로 서버에서 변경된 볼륨 만큼 용량을 사용할 수 있다.</p>
+<h2>EBS 볼륨 파일 시스템 확장</h2>
+<ol>
+<li>볼륨에 파티션이 있는지 확인하려면 <code>lsblk</code> 명령어를 사용한다.</li>
+</ol>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="bash" data-theme="dark-plus"><code data-language="bash" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#D4D4D4">[ec2-user ~]$ sudo lsblk </span></span>
+<span data-line=""><span style="color:#DCDCAA">NAME</span><span style="color:#CE9178"> MAJ:MIN</span><span style="color:#CE9178"> RM</span><span style="color:#CE9178"> SIZE</span><span style="color:#CE9178"> RO</span><span style="color:#CE9178"> TYPE</span><span style="color:#CE9178"> MOUNTPOINT</span><span style="color:#D4D4D4"> </span></span>
+<span data-line=""><span style="color:#DCDCAA">xvda</span><span style="color:#CE9178"> 202:0</span><span style="color:#B5CEA8"> 0</span><span style="color:#CE9178"> 16G</span><span style="color:#B5CEA8"> 0</span><span style="color:#CE9178"> disk</span><span style="color:#D4D4D4"> </span></span>
+<span data-line=""><span style="color:#DCDCAA">└─</span><span style="color:#CE9178"> xvda1</span><span style="color:#CE9178"> 202:1</span><span style="color:#B5CEA8"> 0</span><span style="color:#CE9178"> 8G</span><span style="color:#B5CEA8"> 0</span><span style="color:#CE9178"> part</span><span style="color:#CE9178"> /</span><span style="color:#D4D4D4"> </span></span>
+<span data-line=""><span style="color:#DCDCAA">xvdf</span><span style="color:#CE9178"> 202:80</span><span style="color:#B5CEA8"> 0</span><span style="color:#CE9178"> 24G</span><span style="color:#B5CEA8"> 0</span><span style="color:#CE9178"> disk</span></span></code></pre></figure>
+<ol start="2">
+<li>해당 파티션의 용량이 전체 볼륨보다 작다면 <code>growpart</code> 명령어로 파티션 용량을 확장한다.</li>
+</ol>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="bash" data-theme="dark-plus"><code data-language="bash" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#D4D4D4">[ec2-user ~]$ df -hT</span></span>
+<span data-line=""><span style="color:#DCDCAA">Filesystem</span><span style="color:#CE9178"> Type</span><span style="color:#CE9178"> Size</span><span style="color:#CE9178"> Used</span><span style="color:#CE9178"> Avail</span><span style="color:#CE9178"> Use%</span><span style="color:#CE9178"> Mounted</span><span style="color:#CE9178"> on</span><span style="color:#D4D4D4"> </span></span>
+<span data-line=""><span style="color:#DCDCAA">/dev/xvda1</span><span style="color:#CE9178"> ext4</span><span style="color:#CE9178"> 8.0G</span><span style="color:#CE9178"> 1.9G</span><span style="color:#CE9178"> 6.2G</span><span style="color:#CE9178"> 24%</span><span style="color:#CE9178"> /</span><span style="color:#D4D4D4"> </span></span>
+<span data-line=""><span style="color:#DCDCAA">/dev/xvdf1</span><span style="color:#CE9178"> xfs</span><span style="color:#CE9178"> 24.0G</span><span style="color:#CE9178"> 45M</span><span style="color:#CE9178"> 8.0G</span><span style="color:#CE9178"> 1%</span><span style="color:#CE9178"> /data</span></span></code></pre></figure>
+<ol start="3">
+<li><code>xfs_growfs</code> 명령어로 파일 시스템을 확장한다.</li>
+</ol>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="bash" data-theme="dark-plus"><code data-language="bash" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#D4D4D4">[ec2-user ~]$ sudo xfs_growfs -d /</span></span></code></pre></figure>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"AWS - EBS 용량 관리","date":"2023-11-06T15:23:12.000Z","tags":["AWS"],"image":null,"html":"$3","timeToRead":1,"seriesName":"TIL","seriesPosts":[{"name":"TypeORM orIgnore 메소드 Upsert시 중복 데이터 INSERT 검증 방식 변경","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/TypeORM-Upsert-중복제거/"},{"name":"MongoDB.local Seoul 짧은 참가 후기","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/MongoDB-local-참가-후기/"},{"name":"OLTP vs OLAP","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/OLTP VS OLAP/"},{"name":"SQL - UNION / UNION ALL","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-UNION-ALL/"},{"name":"SQL - INTERSECT","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-INTERSECT/"},{"name":"SRE (Site Reliability Engineering) 개념","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SRE/"},{"name":"인앱 결제 정리","timeToRead":2,"slug":"/posts/TIL/2023/2023-09/인앱-결제/"},{"name":"인앱 결제 환불 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/인앱-결제/환불/"},{"name":"PortOne - 비인증결제 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/PortOne/"},{"name":"PortOne - 인증결제","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/PortOne-인증결제/"},{"name":"PortOne - 웹훅","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/PortOne-웹훅/"},{"name":"제 3자 결제 - 구글","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/제3자-결제-구글/"},{"name":"관찰 가능성 엔지니어링 & 제 3자 결제 - 애플","timeToRead":5,"slug":"/posts/TIL/2023/2023-10/제3자-결제-애플/"},{"name":"OpenTelemetry","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/"},{"name":"OpenTelemetry - 파이프라인, 리소스","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/파이프라인-리소스/"},{"name":"OpenTelemetry - 컨텍스트 전파","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/컨텍스트-전파/"},{"name":"OpenTelemetry 시그널 - 분산 추적","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/시그널-분산추적/"},{"name":"OpenTelemetry  - 메트릭","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/메트릭/"},{"name":"AWS - EBS 용량 관리","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/AWS - EBS용량관리/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XAED6DPtvj__O92gUgzyi"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0ha1_a_hj_sg4.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

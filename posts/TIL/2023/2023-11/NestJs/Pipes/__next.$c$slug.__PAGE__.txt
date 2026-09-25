@@ -1,0 +1,78 @@
+1:"$Sreact.fragment"
+2:I[42887,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/0ha1_a_hj_sg4.js"],"PostClient"]
+6:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T19ef,<h1>NestJs - Pipes</h1>
+<p>NestJs - 파이프</p>
+<p><img src="/posts/posts/TIL/2023/2023-11/NestJs/Pipes/assets/pipe.png" alt="pipe"></p>
+<h2>Pipes</h2>
+<p>파이프는 <code>Injectable </code>데코레이터를 통해 의존성이 주입되고, <code>PipeTransform</code> 인터페이스를 구현하는 클래스 객체이다. 파이프는 ClientSide에서 보낸 요청이 Route Handler(Controller)에 도달하기 전(Controller 앞단)에 동작하여 요청에 포함된 Body, Param의 데이터를 검증하거나, 형변환을 시킨다.</p>
+<p>Pipe에는 보편적으로 <strong>2가지 UseCase</strong>가 있다.</p>
+<ul>
+<li>
+<h4>Transformation(형변환)</h4>
+<ul>
+<li>Input 데이터의 타입(형)을 변환한다.</li>
+<li>ex) String형을 Integer형으로 변경</li>
+</ul>
+</li>
+<li>
+<h4>Validation(데이터 검증)</h4>
+<ul>
+<li>Input 데이터를 검증하여 조건에 부합하지 않는 경우, 예외를 발생시킨다.</li>
+<li>ex) 입력된 데이터의 Max가 5인데 6이 입력되었을 시, 해당 요청은 예외 처리된다.</li>
+</ul>
+</li>
+</ul>
+<h2>Pipes 동작 방식</h2>
+<p>파이프는 Route Handler(Controller)에서 처리되는 <code>arguments</code>에 대해 동작한다. Nest는 Route Handler의 메소드가 호출되기 직전에 파이프를 추가하고, 파이프는 해당 메소드가 받게될 <code>arguments</code>를 인자로 받아 형변환 및 데이터 검증 작업을 실행한다. 해당 작업이 끝나면 Route Handler의 호출된 메소드가 실행된다.</p>
+<h2>Bult-in Pipes</h2>
+<p>Nest는 기본적으로 9가지 Pipes를 <code>@nestjs/common</code> 패키지에 내장하고 있다.</p>
+<ol>
+<li><code>Validation Pipes</code></li>
+<li><code>ParseIntPipe</code></li>
+<li><code>ParseFloatPipe</code></li>
+<li><code>ParseBoolPipe</code></li>
+<li><code>ParseArrayPipe</code></li>
+<li><code>ParseUUIDPipe</code></li>
+<li><code>ParseEnumPipe</code></li>
+<li><code>DefaultValuePipe</code></li>
+<li><code>ParseFilePipe</code></li>
+</ol>
+<h2>Binding Pipes</h2>
+<p>파이프를 사용하기 위해서는 Pipe 클래스의 인스턴스를 정상적인 context에 바인딩 시켜야한다. Route Handler의 메소드에 내부 Param 데코레이터의 param 키 값 뒤에 사용하거나, 새로 Pipe 클래스를 초기화하여 생성자에 custom한 errorHttpStatusCode를 주입할 수 있다.</p>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="Typescript" data-theme="dark-plus"><code data-language="Typescript" data-theme="dark-plus" style="display: grid;"><span data-line=""><span>@Get(':id')</span></span>
+<span data-line=""><span>async findOne(@Param('id', ParseIntPipe) id: number) {</span></span>
+<span data-line=""><span>  return this.catsService.findOne(id);</span></span>
+<span data-line=""><span>}</span></span></code></pre></figure>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="Typescript" data-theme="dark-plus"><code data-language="Typescript" data-theme="dark-plus" style="display: grid;"><span data-line=""><span>@Get(':id')</span></span>
+<span data-line=""><span>async findOne(</span></span>
+<span data-line=""><span>  @Param('id', new ParseIntPipe({ errorHttpStatusCode: HttpStatus.NOT_ACCEPTABLE }))</span></span>
+<span data-line=""><span>  id: number,</span></span>
+<span data-line=""><span>) {</span></span>
+<span data-line=""><span>  return this.catsService.findOne(id);</span></span>
+<span data-line=""><span>}</span></span></code></pre></figure>
+<h2>Global Pipes</h2>
+<p>파이프는 전역적으로 설정하여 서버 애플리케이션 전체 Route Handler에 해당 pipe를 추가할 수 있다.</p>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="Typescript" data-theme="dark-plus"><code data-language="Typescript" data-theme="dark-plus" style="display: grid;"><span data-line=""><span>async function bootstrap() {</span></span>
+<span data-line=""><span>  const app = await NestFactory.create(AppModule);</span></span>
+<span data-line=""><span>  app.useGlobalPipes(new ValidationPipe());</span></span>
+<span data-line=""><span>  await app.listen(8000);</span></span>
+<span data-line=""><span>}</span></span>
+<span data-line=""><span>bootstrap();</span></span></code></pre></figure>
+<p>하지만 GateWay나 MicroServices를 사용하는 경우, <code>useGlobalPipes</code>를 통해 파이프를 전역적으로 설정할 수 없어서 AppModule(혹은 서버 애플리케이션의 의존성을 관리하는 Module)단에서 따로 Providers에 추가해줘야한다.</p>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="typescript" data-theme="dark-plus"><code data-language="typescript" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#C586C0">import</span><span style="color:#D4D4D4"> { </span><span style="color:#9CDCFE">Module</span><span style="color:#D4D4D4"> } </span><span style="color:#C586C0">from</span><span style="color:#CE9178"> '@nestjs/common'</span><span style="color:#D4D4D4">;</span></span>
+<span data-line=""><span style="color:#C586C0">import</span><span style="color:#D4D4D4"> { </span><span style="color:#9CDCFE">APP_PIPE</span><span style="color:#D4D4D4"> } </span><span style="color:#C586C0">from</span><span style="color:#CE9178"> '@nestjs/core'</span><span style="color:#D4D4D4">;</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="color:#D4D4D4">@</span><span style="color:#DCDCAA">Module</span><span style="color:#D4D4D4">({</span></span>
+<span data-line=""><span style="color:#9CDCFE">  providers:</span><span style="color:#D4D4D4"> [</span></span>
+<span data-line=""><span style="color:#D4D4D4">    {</span></span>
+<span data-line=""><span style="color:#9CDCFE">      provide:</span><span style="color:#4FC1FF"> APP_PIPE</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#9CDCFE">      useClass:</span><span style="color:#9CDCFE"> ValidationPipe</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#D4D4D4">    },</span></span>
+<span data-line=""><span style="color:#D4D4D4">  ],</span></span>
+<span data-line=""><span style="color:#D4D4D4">})</span></span>
+<span data-line=""><span style="color:#C586C0">export</span><span style="color:#569CD6"> class</span><span style="color:#4EC9B0"> AppModule</span><span style="color:#D4D4D4"> {}</span></span></code></pre></figure>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"NestJs - Pipes","date":"2023-11-30T15:23:12.000Z","tags":["NestJs"],"image":null,"html":"$3","timeToRead":2,"seriesName":"NestJs 개념 정리","seriesPosts":[{"name":"NestJs - Dynamic Module","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/DynamicModule/"},{"name":"NestJs - MetaData","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/MetaData/"},{"name":"NestJs - Pipes","timeToRead":2,"slug":"/posts/TIL/2023/2023-11/NestJs/Pipes/"},{"name":"NestJs - LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/LifeCycle/"},{"name":"NestJs - Request LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/Request-LifeCycle/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XAED6DPtvj__O92gUgzyi"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0ha1_a_hj_sg4.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

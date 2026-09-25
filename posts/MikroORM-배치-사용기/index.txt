@@ -1,0 +1,95 @@
+1:"$Sreact.fragment"
+2:I[11349,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+3:I[8499,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"ThemeProvider"]
+4:I[5949,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"Loader"]
+5:I[40710,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"LayoutWrapper"]
+6:I[39756,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+7:I[37457,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+8:I[29306,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/11rgw5dpg226n.js"],"default"]
+9:I[54576,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"GoogleAnalytics"]
+b:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+f:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"MetadataBoundary"]
+13:I[68027,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default",1]
+0:{"P":null,"c":["","posts","MikroORM-%EB%B0%B0%EC%B9%98-%EC%82%AC%EC%9A%A9%EA%B8%B0",""],"q":"","i":false,"f":[[["",{"children":[["slug","posts/MikroORM-%EB%B0%B0%EC%B9%98-%EC%82%AC%EC%9A%A9%EA%B8%B0","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/0-z3u.c8xh0nm.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0~okps1-awpeu.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0m3ttg81~pnaw.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":[["$","body",null,{"children":[["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L8",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}],["$","div",null,{"id":"modal-root"}]]}],["$","$L9",null,{"gaId":"G-EEPZ0FD9TM"}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/_next/static/chunks/0ha1_a_hj_sg4.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],{},null,false,null]},null,false,"$@e"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$c",null,{"name":"Next.Metadata","children":"$L12"}]}]}],null]}],false]],"m":"$undefined","G":["$13",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"XAED6DPtvj__O92gUgzyi"}
+14:[]
+e:"$W14"
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+15:I[42887,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/0ha1_a_hj_sg4.js"],"PostClient"]
+16:T2a8e,<p><img src="/posts/posts/MikroORM-%EB%B0%B0%EC%B9%98-%EC%82%AC%EC%9A%A9%EA%B8%B0/assets/1.png" alt="이미지1"></p>
+<h1>MikroORM + Nest 배치 구현 log</h1>
+<h2>개요</h2>
+<p>Nest.js와 MikroORM으로 Batch 애플리케이션을 구현하면서 겪은 이슈에 대해 정리했다.</p>
+<p>기존 프로젝트 서버는 단일 애플리케이션으로 구성되어있어 api와 batch가 같은 서버, 같은 애플리케이션내에서 아래와 같은 구조로 동작하고 있었다.
+Nest Server가 단일 프로세스로 PM2를 통해 관리되고 있었고, MySQL과 Redis는 docker 컨테이너로 구성되어 있었다.</p>
+<p><img src="/posts/posts/MikroORM-%EB%B0%B0%EC%B9%98-%EC%82%AC%EC%9A%A9%EA%B8%B0/assets/legacy-arch.png" alt="legacy-arch1"></p>
+<p>위와 같은 구조로 서비스를 운영하다 아래와 같은 문제점들에 부딪히게 되었다.</p>
+<h2>문제점</h2>
+<ol>
+<li>Nest Server <strong>Scale Out 불가</strong></li>
+<li>불편한 Server Log Tracking</li>
+</ol>
+<h3>1. Nest Server Scale Out 불가</h3>
+<p>개요에서 상기한 것처럼 Nest Server는 단일 프로세스로 api와 batch 모두 단일 서버 애플리케이션에서 PM2를 통해 관리되고 있었다.
+이로 인해 batch와 api를 따로 배포할 수 없어 Nest Server의 Scale Out이 불가능했다.</p>
+<p>특정 주기마다 외부에서 데이터를 조회해와서 처리하는 batch들이 존재했는데 batch들이 동작하는 주기마다 간헐적으로 api 응답이 2~3초씩 지연되는 이슈가 발생하였다.
+batch를 별도의 서버에 배포하고, 온프레미스 환경에서는 api만 운용하려는 방식을 고려하였지만, 하나의 Nest 애플리케이션에 api와 batch가 통합되어있어 바로 조치하기가 불가능하였다.</p>
+<h3>2. 불편한 Server Log Tracking</h3>
+<p>api 서버의 경우, http-logger라는 로깅 미들웨어를 통해 모든 HTTP api 요청에 대한 로그를 남기고 있었다. api 요청 처리시에 tracking 로그를 비롯한
+에러 exception 로그를 남기고 있었는데, batch가 동작시 api 요청 처리 로그 중간중간에 batch 진행 로그가 섞여 batch 진행 상황 및 api 에러 로그를 추적하기에
+애로 사항이 있었다.</p>
+<h2>해결 방안</h2>
+<p>단일 Nest 애플리케이션에서 api와 batch을 별개의 애플리케이션으로 분리하여 특정 애플리케이션에 리소스가 더 필요한 상황시 Scale Out이 가능하고,
+각 서버의 로그를 분리하여 관리할 수 있도록 구조를 변경하였다.</p>
+<p><img src="/posts/posts/MikroORM-%EB%B0%B0%EC%B9%98-%EC%82%AC%EC%9A%A9%EA%B8%B0/assets/current-arch.png" alt="current-arch1">
+해당 글을 Nest api와 batch를 별개의 애플리케이션으로 분리 구현하는 과정에서 생긴 Nest와 MikroORM의 이슈에 대해 정리하였다.</p>
+<h2>Batch 애플리케이션 구현시 MikroORM 관련 global EntityManager 이슈</h2>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="typescript" data-theme="dark-plus"><code data-language="typescript" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#D4D4D4">@</span><span style="color:#DCDCAA">Injectable</span><span style="color:#D4D4D4">()</span></span>
+<span data-line=""><span style="color:#C586C0">export</span><span style="color:#569CD6"> class</span><span style="color:#4EC9B0"> ExampleBatch</span><span style="color:#D4D4D4"> {</span></span>
+<span data-line=""><span style="color:#569CD6">  constructor</span><span style="color:#D4D4D4">(</span></span>
+<span data-line=""><span style="color:#569CD6">    private</span><span style="color:#569CD6"> readonly</span><span style="color:#9CDCFE"> orm</span><span style="color:#D4D4D4">: </span><span style="color:#4EC9B0">MikroORM</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#569CD6">    private</span><span style="color:#569CD6"> readonly</span><span style="color:#9CDCFE"> getExampleService</span><span style="color:#D4D4D4">: </span><span style="color:#4EC9B0">GetExampleService</span></span>
+<span data-line=""><span style="color:#D4D4D4">  ) {}</span></span>
+<span data-line=""><span style="color:#D4D4D4">  </span></span>
+<span data-line=""><span style="color:#569CD6">  async</span><span style="color:#DCDCAA"> main</span><span style="color:#D4D4D4">(): </span><span style="color:#4EC9B0">Promise</span><span style="color:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0">void</span><span style="color:#D4D4D4">> {</span></span>
+<span data-line=""><span style="color:#6A9955">    // 배치 로직</span></span>
+<span data-line=""><span style="color:#D4D4D4">  }</span></span>
+<span data-line=""><span style="color:#D4D4D4">}</span></span></code></pre></figure>
+<p>위와 같은 형식으로 각각의 배치들을 구현하고 동작시키면,</p>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="shell" data-theme="dark-plus"><code data-language="shell" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#CE9178">`</span><span style="color:#DCDCAA">ValidationError:</span><span style="color:#CE9178"> Using global EntityManager instance methods for context specific actions is disallowed.</span></span>
+<span data-line=""><span style="color:#DCDCAA">If</span><span style="color:#CE9178"> you need to work with the global instance's identity map, use `allowGlobalContext` configuration option or `fork()` instead` </span></span></code></pre></figure>
+<p>라는 에러 로그와 함께 배치 애플리케이션이 실행되지않고 바로 종료되는 이슈가 발생하였다.</p>
+<p>에러 로그를 살펴보면, global EntityManager 인스턴스 메소드를 사용하여 컨텍스트별 작업을 수행하려고 하여 발생하는 에러임을 알 수 있다.</p>
+<p>해당 에러를 이해하려면 MikroORM의 EntityManager와 Identity Map에 대해 알아봐야한다. MikroORM에서 context는 RequestContext를 의미하는데
+하나의 요청이 들어올 때, 해당 요청에 대한 RequestContext가 생성되고, 이 RequestContext에 대한 EntityManager가 생성된다. 각각의 EntityManager는
+1대1로 매칭되는 Identity Map을 가지고 있어, 같은 EntityManager로 조회한 Entity는 같은 Identity Map에 저장된다.</p>
+<p>하지만 배치 애플리케이션의 경우, 별도의 요청이 없이 주기적으로 동작하는 애플리케이션이기 때문에 RequestContext가 생성되지 않아 EntityManager가 생성되지 않는다.
+따라서, global EntityManager를 사용하여 요청 컨텍스트별 작업을 수행하려고 하면 EntityManager 생성에서 valid 에러가 발생하게 된다.
+만약 MikroORM v5 이전의 버전을 도입하였다면 해당 valid 에러가 발생하지 않지만, v5부터는 global identity map의 사용이 불가능해졌기 때문에
+해당 에러가 발생하게 된다. 만약 global identity map을 사용하려면 <code>allowGlobalContext</code> 옵션을 사용하거나 <code>fork()</code> 메소드를 사용하여
+새로운 EntityManager를 직접 생성해야한다.</p>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="typescript" data-theme="dark-plus"><code data-language="typescript" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#D4D4D4">@</span><span style="color:#DCDCAA">Injectable</span><span style="color:#D4D4D4">()</span></span>
+<span data-line=""><span style="color:#C586C0">export</span><span style="color:#569CD6"> class</span><span style="color:#4EC9B0"> ExampleBatch</span><span style="color:#D4D4D4"> {</span></span>
+<span data-line=""><span style="color:#569CD6">  constructor</span><span style="color:#D4D4D4">(</span></span>
+<span data-line=""><span style="color:#569CD6">    private</span><span style="color:#569CD6"> readonly</span><span style="color:#9CDCFE"> orm</span><span style="color:#D4D4D4">: </span><span style="color:#4EC9B0">MikroORM</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#569CD6">    private</span><span style="color:#569CD6"> readonly</span><span style="color:#9CDCFE"> getExampleService</span><span style="color:#D4D4D4">: </span><span style="color:#4EC9B0">GetExampleService</span></span>
+<span data-line=""><span style="color:#D4D4D4">  ) {}</span></span>
+<span data-line=""><span style="color:#D4D4D4">  </span></span>
+<span data-line=""><span style="color:#569CD6">  async</span><span style="color:#DCDCAA"> main</span><span style="color:#D4D4D4">(): </span><span style="color:#4EC9B0">Promise</span><span style="color:#D4D4D4">&#x3C;</span><span style="color:#4EC9B0">void</span><span style="color:#D4D4D4">> {</span></span>
+<span data-line=""><span style="color:#6A9955">    // orm.em.fork()를 통해 새로운 EntityManager 생성</span></span>
+<span data-line=""><span style="color:#569CD6">    const</span><span style="color:#4FC1FF"> em</span><span style="color:#D4D4D4"> = </span><span style="color:#569CD6">this</span><span style="color:#D4D4D4">.</span><span style="color:#9CDCFE">orm</span><span style="color:#D4D4D4">.</span><span style="color:#9CDCFE">em</span><span style="color:#D4D4D4">.</span><span style="color:#DCDCAA">fork</span><span style="color:#D4D4D4">();</span></span>
+<span data-line=""><span style="color:#6A9955">    // 배치 로직</span></span>
+<span data-line=""><span style="color:#D4D4D4">  }</span></span>
+<span data-line=""><span style="color:#D4D4D4">}</span></span></code></pre></figure>
+<p>MikroORM에서 v5부터 global Identity Map혹은 EntityManager의 사용을 불가능하게 한 이유를 간단히 알아보자면, RequestContext 없이 global
+EntityManager의 남용으로 이상한 버그를 유발하고, 결과적으로 각 요청별 전용 Context를 두어야 간섭하지 않기 때문이다. 예를 들면 A라는 요청과 B 라는 요청
+을 모두 global EntityManager에서 처리시, A 요청의 처리를 위해 조회한 Entity 정보를 B 요청에서 참조할 수 있게 되는 등 예기치 못한 변수가 발생할 수 있다.
+이러한 상황을 막기위해 global EntityManager의 사용을 불가능하게 한 것이다.</p>
+<h2>결론</h2>
+<p>Nest.js와 MikroORM으로 Batch 애플리케이션을 구현하면서 겪은 이슈에 대해 정리하였다.
+MikroORM의 global EntityManager 사용에 대한 이슈를 해결하기 위해 <code>fork()</code> 메소드를 사용하여 새로운 EntityManager를 생성하여 사용하였다.
+MikroORM이 JPA와 매우 유사한 원리로 ORM을 제공하고 있어, JPA를 이해하고 있는 개발자라면 쉽게 사용할 수 있을 것이다.</p>
+<pre><code></code></pre>a:["$","$L15",null,{"title":"MikroORM 배치 사용기","date":"2025-03-10T15:23:12.000Z","tags":["MikroORM","NestJs"],"image":"/posts/posts/MikroORM-배치-사용기/assets/1.png","html":"$16","timeToRead":4,"seriesName":"MikroORM 사용기","seriesPosts":[{"name":"MikroORM 배치 사용기","timeToRead":4,"slug":"/posts/MikroORM-배치-사용기/"}]}]
+d:null
+12:[["$","title","0",{"children":"MikroORM 배치 사용기 · Dylan"}],["$","meta","1",{"name":"description","content":"MikroORM 배치 사용기"}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"google-site-verification","content":"wPI09aIL9InuxJwKlMkLE-4mzzfbNhQqRCJ760C-8nQ"}],["$","meta","4",{"name":"naver-site-verification","content":"ea1f2e6ed93587bf3729ae4bc705c33388976589"}],["$","meta","5",{"property":"og:title","content":"MikroORM 배치 사용기"}],["$","meta","6",{"property":"og:description","content":"MikroORM 배치 사용기"}],["$","meta","7",{"property":"og:image","content":"https://justsloth.com/posts/posts/MikroORM-%EB%B0%B0%EC%B9%98-%EC%82%AC%EC%9A%A9%EA%B8%B0/assets/1.png"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2025-03-10T15:23:12.000Z"}],["$","meta","10",{"property":"article:tag","content":"MikroORM"}],["$","meta","11",{"property":"article:tag","content":"NestJs"}],["$","meta","12",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","13",{"name":"twitter:title","content":"Blog"}],["$","meta","14",{"name":"twitter:description","content":"08시 20분 개발기록"}],["$","meta","15",{"name":"twitter:image","content":"https://justsloth.com/profile.jpg"}]]

@@ -1,0 +1,66 @@
+1:"$Sreact.fragment"
+2:I[42887,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/0ha1_a_hj_sg4.js"],"PostClient"]
+4:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T790,<h1>관찰 가능성 엔지니어링</h1>
+<p>OpenTelemetry</p>
+<h3>OpenTelemetry의 개념</h3>
+<ul>
+<li>
+<h4>시그널</h4>
+<ul>
+<li>다양한 종류의 원격 측정 데이터를 담을 수 있는 개방형 규격을 제공하기 위해 관심의 범주를 구성하는 용어</li>
+<li>자기 자신의 값을 제공하도록 설정할 수 있는 독립 컴포넌트</li>
+<li>각 시그널이 제공하는 내용
+<ul>
+<li>시그널 구현을 위한 스펙 문서</li>
+<li>구현상 시그널을 나타내는 데이터 모델 표현
+<ul>
+<li>데이터 모델 : 특정한  시그널을 구성하는 컴포넌트의 표현 방식을 정의</li>
+</ul>
+</li>
+<li>개발자가 코드에서 사용할 API</li>
+<li>API를 사용해 원격 측정 데이터를 만들 때 사용하는 SDK</li>
+<li>일관성 있는 고품질 데이터를 얻기 위한 시맨틱 표기법
+<ul>
+<li>시맨틱 표기법 : 여러 형태의 애플리케이션이나 워크로드에 관한 정의를 제공하여 원격 측정의 일관성을 개선하는 방법
+<ul>
+<li>어떤 원격 측정이 이뤄져야 하는지와 데이터를 어떻게 식별할 것인지에 관한 정보를 제공</li>
+<li>시맨틱 표기법이 다루는 프로토콜/애플리케이션 형태
+<ul>
+<li>HTTP</li>
+<li>DB</li>
+<li>Mq</li>
+<li>FaaS(Function-as-a-Service)</li>
+<li>RPC(Remote-Procedure-Call)</li>
+<li>Process 지표</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>계측 라이브러리</li>
+</ul>
+</li>
+<li>OpenTelemetry에서 최초로 정의한 시그널
+<ul>
+<li>추적</li>
+<li>메트릭</li>
+<li>로그</li>
+<li>배기지(baggage)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3>OpenTelemetry의 특징</h3>
+<ul>
+<li>개방형 규격</li>
+<li>언어별 특성에 맞춘 API와 SDK</li>
+<li>계측 라이브러리</li>
+<li>시맨틱 표시법</li>
+<li>원격 측정 데이터 수집을 위한 에이전트</li>
+<li>데이터 구성, 전송, 수신에 관한 프로토콜</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"OpenTelemetry","date":"2023-10-11T15:23:12.000Z","tags":["관찰가능성"],"image":null,"html":"$3","timeToRead":1,"seriesName":"TIL","seriesPosts":[{"name":"TypeORM orIgnore 메소드 Upsert시 중복 데이터 INSERT 검증 방식 변경","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/TypeORM-Upsert-중복제거/"},{"name":"MongoDB.local Seoul 짧은 참가 후기","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/MongoDB-local-참가-후기/"},{"name":"OLTP vs OLAP","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/OLTP VS OLAP/"},{"name":"SQL - UNION / UNION ALL","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-UNION-ALL/"},{"name":"SQL - INTERSECT","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-INTERSECT/"},{"name":"SRE (Site Reliability Engineering) 개념","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SRE/"},{"name":"인앱 결제 정리","timeToRead":2,"slug":"/posts/TIL/2023/2023-09/인앱-결제/"},{"name":"인앱 결제 환불 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/인앱-결제/환불/"},{"name":"PortOne - 비인증결제 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/PortOne/"},{"name":"PortOne - 인증결제","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/PortOne-인증결제/"},{"name":"PortOne - 웹훅","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/PortOne-웹훅/"},{"name":"제 3자 결제 - 구글","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/제3자-결제-구글/"},{"name":"관찰 가능성 엔지니어링 & 제 3자 결제 - 애플","timeToRead":5,"slug":"/posts/TIL/2023/2023-10/제3자-결제-애플/"},{"name":"OpenTelemetry","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/"},{"name":"OpenTelemetry - 파이프라인, 리소스","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/파이프라인-리소스/"},{"name":"OpenTelemetry - 컨텍스트 전파","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/컨텍스트-전파/"},{"name":"OpenTelemetry 시그널 - 분산 추적","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/시그널-분산추적/"},{"name":"OpenTelemetry  - 메트릭","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/메트릭/"},{"name":"AWS - EBS 용량 관리","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/AWS - EBS용량관리/"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/0ha1_a_hj_sg4.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"XAED6DPtvj__O92gUgzyi"}
+6:null

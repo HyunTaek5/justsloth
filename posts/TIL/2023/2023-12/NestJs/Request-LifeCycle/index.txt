@@ -1,0 +1,83 @@
+1:"$Sreact.fragment"
+2:I[11349,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+3:I[8499,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"ThemeProvider"]
+4:I[5949,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"Loader"]
+5:I[40710,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"LayoutWrapper"]
+6:I[39756,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+7:I[37457,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+8:I[29306,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/11rgw5dpg226n.js"],"default"]
+9:I[54576,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"GoogleAnalytics"]
+b:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+f:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"MetadataBoundary"]
+13:I[68027,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default",1]
+0:{"P":null,"c":["","posts","TIL","2023","2023-12","NestJs","Request-LifeCycle",""],"q":"","i":false,"f":[[["",{"children":[["slug","posts/TIL/2023/2023-12/NestJs/Request-LifeCycle","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/0-z3u.c8xh0nm.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0~okps1-awpeu.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0m3ttg81~pnaw.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":[["$","body",null,{"children":[["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L8",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}],["$","div",null,{"id":"modal-root"}]]}],["$","$L9",null,{"gaId":"G-EEPZ0FD9TM"}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/_next/static/chunks/0ha1_a_hj_sg4.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],{},null,false,null]},null,false,"$@e"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$c",null,{"name":"Next.Metadata","children":"$L12"}]}]}],null]}],false]],"m":"$undefined","G":["$13",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"XAED6DPtvj__O92gUgzyi"}
+14:[]
+e:"$W14"
+15:I[42887,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/0ha1_a_hj_sg4.js"],"PostClient"]
+16:T11cb,<h1>NestJs - Request LifeCycle</h1>
+<h2>Request LifeCycle</h2>
+<p>Nest는 <code>Request LifeCycle</code>라고 하는 순서에 따라 요청을 처리하고 응답을 생성한다. <code>Middleware</code>, <code>Pipes</code>, <code>Guards</code> 및 <code>Interceptors</code>를 사용하면 <code>Global</code>, <code>Controller</code>, <code>Route Handler</code>가 작동할 때 <code>Request LifeCycle</code> 동안 특정 코드가 실행되는 위치를 추적하는 것이 어려울 수 있다. 일반적인 요청은 <code>Middleware</code>를 통해 <code>Guards</code>, <code>Interceptors</code>, <code>Pipes</code>,  API의 <code>Interceptors</code>로 이동한다.</p>
+<h3>Middleware</h3>
+<p>Nest는 전역적으로 바인딩된 <code>Middleware</code>( ex. <code>app.use()</code>로 바인딩된 <code>Middleware</code> )를 실행한 다음 경로에서 결정되는 모듈 바인딩 <code>Middleware</code>를 실행한다. <code>Middleware</code>는 <code>Express</code>의 <code>Middleware</code> 작동 방식과 유사하게 바인딩된 순서대로 순차적으로 실행된다. 서로 다른 모듈에 바인딩된 <code>Middleware</code>의 경우 루트 모듈에 바인딩된 <code>Middleware</code>가 먼저 실행된 다음 모듈이 imports 배열에 추가된 순서대로 <code>Middleware</code>가 실행된다.</p>
+<h3>Guards</h3>
+<p><code>Guards</code> 실행은 <code>Global Guards</code>로 시작하여 <code>Controller Guards</code>로 진행되고 마지막으로 <code>Route Guards</code>로 진행된다. <code>Middleware</code>와 마찬가지로 <code>Guards</code>는 바인딩된 순서대로 실행된다.</p>
+<h3>Interceptors</h3>
+<p>대부분의 <code>Interceptors</code>는 <code>Guards</code>와 동일한 패턴을 따르지만 한 가지가 다르다. <code>Interceptors</code>가 <code>RxJS Observable</code>을 반환하므로 <code>Observable</code>은  처음 들어온 순으로 처리된다.  인바운드 요청은 전역, <code>Controller</code>, <code>Route</code> 수준의 확인을 거치지만 요청의 응답이 <code>Controller</code>, <code>Method handler</code>에서 반환된 후, <code>Route</code>에서 <code>Controller</code>, <code>Global</code>순으로 확인한다. <code>Pipes</code>, <code>Controller</code> 또는 <code>Service</code>에서 발생하는 모든 오류는 <code>Interceptors</code>의 <code>catchError</code> 연산자에서 읽을 수 있다.</p>
+<h3>Pipes</h3>
+<p>파이프는 <code>@UsePipes()</code> 매개변수와 관련하여 동일한 <code>FIFO</code> 방식으로 <code>Controller</code>에 대한 표준 전역을 따라 바인딩된 시퀀스를 라우팅한다. 그러나 <code>Routing Param </code>에서 실행 중인 파이프가 여러 개인 경우 파이프는 첫 번째 매개변수부터 마지막 매개변수의 순서로 실행된다. 이는 <code>Route</code> 및 <code>Controller</code> 파이프에도 적용된다.</p>
+<h3>Filters</h3>
+<p>필터는 전역을 우선적으로 처리하지 않는 유일한 구성 요소이다.  필터는 가능한 가장 낮은 수준에서부터 확인한다. 모든 <code>Route</code>에 바인딩된 필터, <code>Controller</code>수준, 마지막으로 전역 수준 필터로 진행된다. 예외는 필터에서 필터로 전달될 수 없다. <code>Route</code> 수준 필터가 예외를 포착하는 경우, <code>Controller</code> 또는 전역 수준 필터는 동일한 예외를 포착할 수 없다. 필터에서 필터로 예외를 전달하는 것과 동일한 효과를 내는 방법은 필터 간에 상속을 사용하는 것이다.</p>
+<h2>Request LifeCycle - 1 사이클</h2>
+<ol>
+<li>Incoming request</li>
+<li>Middleware
+<ul>
+<li>2.1. Globally bound middleware</li>
+<li>2.2. Module bound middleware</li>
+</ul>
+</li>
+<li>Guards
+<ul>
+<li>3.1 Global guards</li>
+<li>3.2 Controller guards</li>
+<li>3.3 Route guards</li>
+</ul>
+</li>
+<li>Interceptors (pre-controller)
+<ul>
+<li>4.1 Global interceptors</li>
+<li>4.2 Controller interceptors</li>
+<li>4.3 Route interceptors</li>
+</ul>
+</li>
+<li>Pipes
+<ul>
+<li>5.1 Global pipes</li>
+<li>5.2 Controller pipes</li>
+<li>5.3 Route pipes</li>
+<li>5.4 Route parameter pipes</li>
+</ul>
+</li>
+<li>Controller (method handler)</li>
+<li>Service (if exists)</li>
+<li>Interceptors (post-request)
+<ul>
+<li>8.1 Route interceptor</li>
+<li>8.2 Controller interceptor</li>
+<li>8.3 Global interceptor</li>
+</ul>
+</li>
+<li>Exception filters
+<ul>
+<li>9.1 route</li>
+<li>9.2 controller</li>
+<li>9.3 global</li>
+</ul>
+</li>
+<li>Server response</li>
+</ol>a:["$","$L15",null,{"title":"NestJs - Request LifeCycle","date":"2023-12-11T15:23:12.000Z","tags":["NestJs"],"image":null,"html":"$16","timeToRead":2,"seriesName":"NestJs 개념 정리","seriesPosts":[{"name":"NestJs - Dynamic Module","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/DynamicModule/"},{"name":"NestJs - MetaData","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/MetaData/"},{"name":"NestJs - Pipes","timeToRead":2,"slug":"/posts/TIL/2023/2023-11/NestJs/Pipes/"},{"name":"NestJs - LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/LifeCycle/"},{"name":"NestJs - Request LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/Request-LifeCycle/"}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+d:null
+12:[["$","title","0",{"children":"NestJs - Request LifeCycle · Dylan"}],["$","meta","1",{"name":"description","content":"NestJs - Request LifeCycle"}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"google-site-verification","content":"wPI09aIL9InuxJwKlMkLE-4mzzfbNhQqRCJ760C-8nQ"}],["$","meta","4",{"name":"naver-site-verification","content":"ea1f2e6ed93587bf3729ae4bc705c33388976589"}],["$","meta","5",{"property":"og:title","content":"NestJs - Request LifeCycle"}],["$","meta","6",{"property":"og:description","content":"NestJs - Request LifeCycle"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"property":"article:published_time","content":"2023-12-11T15:23:12.000Z"}],["$","meta","9",{"property":"article:tag","content":"NestJs"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Blog"}],["$","meta","12",{"name":"twitter:description","content":"08시 20분 개발기록"}],["$","meta","13",{"name":"twitter:image","content":"https://justsloth.com/profile.jpg"}]]

@@ -1,0 +1,100 @@
+1:"$Sreact.fragment"
+2:I[11349,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+3:I[8499,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"ThemeProvider"]
+4:I[5949,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"Loader"]
+5:I[40710,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"LayoutWrapper"]
+6:I[39756,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+7:I[37457,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default"]
+8:I[29306,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/11rgw5dpg226n.js"],"default"]
+9:I[54576,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"GoogleAnalytics"]
+b:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+f:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"MetadataBoundary"]
+13:I[68027,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js"],"default",1]
+0:{"P":null,"c":["","posts","TIL","2023","2023-10","%EC%A0%9C3%EC%9E%90-%EA%B2%B0%EC%A0%9C-%EA%B5%AC%EA%B8%80",""],"q":"","i":false,"f":[[["",{"children":[["slug","posts/TIL/2023/2023-10/%EC%A0%9C3%EC%9E%90-%EA%B2%B0%EC%A0%9C-%EA%B5%AC%EA%B8%80","c",null],{"children":["__PAGE__",{}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/0-z3u.c8xh0nm.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0~okps1-awpeu.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/0d3shmwh5_nmn.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/0m3ttg81~pnaw.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"ko","children":[["$","body",null,{"children":[["$","$L2",null,{"children":["$","$L3",null,{"children":["$","$L4",null,{"children":["$","$L5",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L8",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]}],["$","div",null,{"id":"modal-root"}]]}],["$","$L9",null,{"gaId":"G-EEPZ0FD9TM"}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$La",[["$","script","script-0",{"src":"/_next/static/chunks/0ha1_a_hj_sg4.js","async":true,"nonce":"$undefined"}]],["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]]}],{},null,false,null]},null,false,"$@e"]},null,false,null],["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$L10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$c",null,{"name":"Next.Metadata","children":"$L12"}]}]}],null]}],false]],"m":"$undefined","G":["$13",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"XAED6DPtvj__O92gUgzyi"}
+14:[]
+e:"$W14"
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+15:I[42887,["/_next/static/chunks/0-z3u.c8xh0nm.js","/_next/static/chunks/0~okps1-awpeu.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0m3ttg81~pnaw.js","/_next/static/chunks/0ha1_a_hj_sg4.js"],"PostClient"]
+16:T1616,<h1>제 3자 결제 - 구글</h1>
+<p>구글 제3자 결제</p>
+<h2>백엔드</h2>
+<h3>구매</h3>
+<ul>
+<li>안드로이드 앱의 <a href="https://developer.android.com/reference/com/android/billingclient/api/AlternativeBillingListener">AlternativeBillingListener</a>에서 my_token을 externalTransactionToken으로 수신</li>
+<li>앱에서 백엔드로 externalTransactionToken, 제품 정보 전송</li>
+<li>앱내 결제 처리 후 Google Play 보고 목적의 고유한 거래 ID ( externalTransactionId ) 할당</li>
+<li>결제 완료후 externalTransactionId를 서버로 전송 - GooglePlay 결제 보고 API 호출</li>
+</ul>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="json" data-theme="dark-plus"><code data-language="json" data-theme="dark-plus" style="display: grid;"><span data-line=""> </span>
+<span data-line=""><span style="color:#D4D4D4">POST /androidpublisher/v</span><span style="color:#B5CEA8">3</span><span style="color:#D4D4D4">/applications/com.myapp.android/externalTransactions?externalTransactionId=${</span><span style="color:#F44747">externalTransactionId</span><span style="color:#D4D4D4">} </span></span>
+<span data-line=""><span style="color:#6A9955">// Google API client SDK 사용 또는 직접 HTTPS 엔드포인트 호출</span></span>
+<span data-line=""> </span>
+<span data-line=""><span style="color:#D4D4D4">Body</span></span>
+<span data-line=""><span style="color:#D4D4D4"> {</span></span>
+<span data-line=""><span style="color:#9CDCFE">"originalPreTaxAmount"</span><span style="color:#D4D4D4"> : {</span></span>
+<span data-line=""><span style="color:#9CDCFE">   "priceMicros"</span><span style="color:#D4D4D4">: </span><span style="color:#CE9178">"0"</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#9CDCFE">   "currency"</span><span style="color:#D4D4D4">: </span><span style="color:#CE9178">"KRW"</span></span>
+<span data-line=""><span style="color:#D4D4D4"> },</span></span>
+<span data-line=""><span style="color:#9CDCFE"> "originalTaxAmount"</span><span style="color:#D4D4D4"> : {</span></span>
+<span data-line=""><span style="color:#9CDCFE">   "priceMicros"</span><span style="color:#D4D4D4">: </span><span style="color:#CE9178">"0"</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#9CDCFE">   "currency"</span><span style="color:#D4D4D4">: </span><span style="color:#CE9178">"KRW"</span></span>
+<span data-line=""><span style="color:#D4D4D4"> },</span></span>
+<span data-line=""><span style="color:#9CDCFE">"transactionTime"</span><span style="color:#D4D4D4"> : </span><span style="color:#CE9178">"2022-02-22T12:45:00Z"</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#9CDCFE"> "recurringTransaction"</span><span style="color:#D4D4D4"> : {</span></span>
+<span data-line=""><span style="color:#9CDCFE">   "externalTransactionToken"</span><span style="color:#D4D4D4">: </span><span style="color:#CE9178">"my_token"</span><span style="color:#D4D4D4">,</span></span>
+<span data-line=""><span style="color:#9CDCFE">   "external_subscription"</span><span style="color:#F44747"> {</span></span>
+<span data-line=""><span style="color:#9CDCFE">     "subscriptionType"</span><span style="color:#D4D4D4">: </span><span style="color:#CE9178">"RECURRING"</span></span>
+<span data-line=""><span style="color:#D4D4D4">   }</span></span>
+<span data-line=""><span style="color:#D4D4D4"> },</span></span>
+<span data-line=""><span style="color:#CE9178"> "userTaxAddress"</span><span style="color:#D4D4D4"> : {</span></span>
+<span data-line=""><span style="color:#9CDCFE">   "regionCode"</span><span style="color:#D4D4D4">: </span><span style="color:#CE9178">"KR"</span></span>
+<span data-line=""><span style="color:#D4D4D4"> }</span></span>
+<span data-line=""><span style="color:#D4D4D4">}</span></span>
+<span data-line=""> </span></code></pre></figure>
+<h3>환불 처리</h3>
+<ul>
+<li>PG사 환불처리후 백엔드 서버에서 GooglePlay에 REST API로 구매 환불 보고</li>
+<li>externalTransactionId 기준으로 환불된 거래 보고 : 전액/부분 환불 모두 지원</li>
+</ul>
+<h2>인앱</h2>
+<h3>구매</h3>
+<ul>
+<li>안드로이드 앱 BillingClient 초기화 단계에 enableAlternativeBilling 메소드 호출 및 AlternativeBillingListener 등록 필요
+<ul>
+<li>enableAlternativeBilling - 이용자에게 결제 옵션 선택권 제공</li>
+<li>AlternativeBillingListener - 제3자 결제 선택 케이스 처리 목적</li>
+</ul>
+</li>
+<li>BillingClient 초기화 후 Google Play 연결 필요
+<ul>
+<li>BillingClient의 startConnection 메소드 호출 - 비동기로 동작</li>
+<li>BillingClientState Listener로 콜백 수신 필요</li>
+<li>GooglePlay와 연결 단절시 onBillingServiceDisconnected 콜백 메소드 재정의 필요</li>
+</ul>
+</li>
+<li>launchBillingFlow 메소드 호출하여 결제 시작
+<ol>
+<li>제3자 결제 선택시
+<ul>
+<li>userSelectedAlternativeBilling 메소드 호출</li>
+<li>AlternativeChoiceDetails 객체 내부 거래 토큰으로 거래 처리 완료후 거래 보고</li>
+</ul>
+</li>
+<li>Google Play 인앱 결제 선택시
+<ul>
+<li>PurchasesUpdatedListener 또는 BillingClient의 queryPurchasesAsync 메소드로 구매 인식</li>
+<li>구매 인증후 구매 확인 필요
+<ul>
+<li>구매 미확인시 사용자에게 자동 환불 처리된다</li>
+</ul>
+</li>
+<li>비소비성 제품 - BillingClient의 acknowledgePurchase 메소드로 구매 확인 | isAcknowledged 메소드로 이미 확인되었는지 여부 체크</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>a:["$","$L15",null,{"title":"제 3자 결제 - 구글","date":"2023-10-04T15:23:12.000Z","tags":["제3자-결제"],"image":null,"html":"$16","timeToRead":2,"seriesName":"TIL","seriesPosts":[{"name":"TypeORM orIgnore 메소드 Upsert시 중복 데이터 INSERT 검증 방식 변경","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/TypeORM-Upsert-중복제거/"},{"name":"MongoDB.local Seoul 짧은 참가 후기","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/MongoDB-local-참가-후기/"},{"name":"OLTP vs OLAP","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/OLTP VS OLAP/"},{"name":"SQL - UNION / UNION ALL","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-UNION-ALL/"},{"name":"SQL - INTERSECT","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-INTERSECT/"},{"name":"SRE (Site Reliability Engineering) 개념","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SRE/"},{"name":"인앱 결제 정리","timeToRead":2,"slug":"/posts/TIL/2023/2023-09/인앱-결제/"},{"name":"인앱 결제 환불 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/인앱-결제/환불/"},{"name":"PortOne - 비인증결제 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/PortOne/"},{"name":"PortOne - 인증결제","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/PortOne-인증결제/"},{"name":"PortOne - 웹훅","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/PortOne-웹훅/"},{"name":"제 3자 결제 - 구글","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/제3자-결제-구글/"},{"name":"관찰 가능성 엔지니어링 & 제 3자 결제 - 애플","timeToRead":5,"slug":"/posts/TIL/2023/2023-10/제3자-결제-애플/"},{"name":"OpenTelemetry","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/"},{"name":"OpenTelemetry - 파이프라인, 리소스","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/파이프라인-리소스/"},{"name":"OpenTelemetry - 컨텍스트 전파","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/컨텍스트-전파/"},{"name":"OpenTelemetry 시그널 - 분산 추적","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/시그널-분산추적/"},{"name":"OpenTelemetry  - 메트릭","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/메트릭/"},{"name":"AWS - EBS 용량 관리","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/AWS - EBS용량관리/"}]}]
+d:null
+12:[["$","title","0",{"children":"제 3자 결제 - 구글 · Dylan"}],["$","meta","1",{"name":"description","content":"제 3자 결제 - 구글"}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","3",{"name":"google-site-verification","content":"wPI09aIL9InuxJwKlMkLE-4mzzfbNhQqRCJ760C-8nQ"}],["$","meta","4",{"name":"naver-site-verification","content":"ea1f2e6ed93587bf3729ae4bc705c33388976589"}],["$","meta","5",{"property":"og:title","content":"제 3자 결제 - 구글"}],["$","meta","6",{"property":"og:description","content":"제 3자 결제 - 구글"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"property":"article:published_time","content":"2023-10-04T15:23:12.000Z"}],["$","meta","9",{"property":"article:tag","content":"제3자-결제"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Blog"}],["$","meta","12",{"name":"twitter:description","content":"08시 20분 개발기록"}],["$","meta","13",{"name":"twitter:image","content":"https://justsloth.com/profile.jpg"}]]
