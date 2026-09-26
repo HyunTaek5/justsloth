@@ -1,0 +1,85 @@
+1:"$Sreact.fragment"
+2:I[67055,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js","/_next/static/chunks/0sgcol9puie22.js","/_next/static/chunks/0b4w4t19r.01t.js","/_next/static/chunks/0fe3hqctf-h9a.js"],"PostClient"]
+4:I[97367,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:Td36,<h1>NestJs - LifeCycle</h1>
+<h2>Sequence LifeCycle</h2>
+<p>NestJs 실행 시퀀스 전체 주기를 3단계로 크게 나눌 수 있다.</p>
+<ul>
+<li>초기화 (initializing)</li>
+<li>실행 (running)</li>
+<li>종료 (terminatitng)</li>
+</ul>
+<h3>초기화 (Initializing)</h3>
+<ol>
+<li>BootStrapping Starts
+<ul>
+<li>Nest Core BootStrapping</li>
+</ul>
+</li>
+<li><code>onModuleInit</code>
+<ul>
+<li>모든 모듈의 child controller와 provider의 <code>onModuleInit</code> 메소드가 완료될 때까지 대기한다.</li>
+<li>모듈의 <code>onModuleInit</code> 메소드가 완료될 때까지 대기한다.</li>
+</ul>
+</li>
+<li><code>onApplicationBootstrap</code>
+<ul>
+<li>모든 모듈의 child controller와 provider의 <code>onApplicationBootstrap</code> 메소드가 완료될 때까지 대기한다.</li>
+<li>모듈의 <code>onApplicationBootstrap</code> 메소드가 완료될 때까지 대기한다.</li>
+</ul>
+</li>
+</ol>
+<h3>실행 (running)</h3>
+<ol>
+<li>Start listeners
+<ul>
+<li>HTTP 서버, WS 서버, 각각의 마이크로 서비스가 커넥션이 열리고, 준비될때까지 대기한다.</li>
+</ul>
+</li>
+<li>Application is Running
+<ul>
+<li>애플리케이션 프로세스가 정상적으로 시작된다.</li>
+</ul>
+</li>
+</ol>
+<h3>종료 (terminating)</h3>
+<ol>
+<li><code>onModuleDestroy</code>
+<ul>
+<li>모든 모듈의 child controller와 provider의 <code>onModuleDestroy</code> 메소드가 완료될 때까지 대기한다.</li>
+<li>모듈의 <code>onModuleDestroy</code> 메소드가 완료될 때까지 대기한다.</li>
+</ul>
+</li>
+<li><code>beforeApplicationShutdown</code>
+<ul>
+<li>모든 모듈의 child controller와 provider의 <code>beforeApplicationShutdown</code> 메소드가 완료될 때까지 대기한다.</li>
+<li>모듈의 <code>beforeApplicationShutdown</code> 메소드가 완료될 때까지 대기한다.</li>
+</ul>
+</li>
+<li>Stop Listeners
+<ul>
+<li>HTTP 서버, WS 서버, 각각의 마이크로 서비스가 커넥션이 종료될 때까지 대기한다.</li>
+</ul>
+</li>
+<li><code>onApplicationShutdown</code>
+<ul>
+<li>모든 모듈의 child controller와 provider의 <code>onApplicationShutdown</code> 메소드가 완료될 때까지 대기한다.</li>
+<li>모듈의 <code>onApplicationShutdown</code> 메소드가 완료될 때까지 대기한다.</li>
+</ul>
+</li>
+<li>Process Exits</li>
+</ol>
+<h2>LifeCycle Events</h2>
+<p>LifeCycle 이벤트들은 애플리케이션이 시작되고, 종료되는 과정에서 발생한다. Nest는 LifeCycle 시퀀스 절차에 맞춰서 각각의 모듈, 컨트롤러, providers에 등록된 LifeCycle Hook 메소드를 호출한다.</p>
+<h3><code>onModuleInit()</code></h3>
+<p>호스트 모듈의 의존성이 해소되었을 때, 한번 호출된다.</p>
+<h3><code>onApplicationBootstrap()</code></h3>
+<p>모든 모듈이 초기화되고, 커넥션이 열리기 전에 한번 호출된다.</p>
+<h3><code>onModuleDestory()</code></h3>
+<p>종료 시그널(<code>SIGTERM</code>)을 수신받았을 때 호출된다.</p>
+<h3><code>beforeApplicationShutdown()</code></h3>
+<p><code>onModuleDestory</code> 메소드가 완료되었을 때 호출된다. 해당 메소드가 완료되면 <code>app.close()</code>의 호출을 통해 존재하는 모든 커넥션의 종료가 시작된다.</p>
+<h3><code>onApplicationShutdown()</code></h3>
+<p>모든 커넥션이 종료된 후, 호출된다.</p>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"NestJs - LifeCycle","date":"2023-12-09T15:23:12.000Z","tags":["NestJs"],"image":null,"html":"$3","timeToRead":2,"seriesName":"NestJs 개념 정리","seriesPosts":[{"name":"NestJs - Dynamic Module","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/DynamicModule/"},{"name":"NestJs - MetaData","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/MetaData/"},{"name":"NestJs - Pipes","timeToRead":2,"slug":"/posts/TIL/2023/2023-11/NestJs/Pipes/"},{"name":"NestJs - LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/LifeCycle/"},{"name":"NestJs - Request LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/Request-LifeCycle/"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"kqFpWts4SOqqLEvvkA56O"}
+6:null

@@ -1,0 +1,69 @@
+1:"$Sreact.fragment"
+2:I[67055,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js","/_next/static/chunks/0sgcol9puie22.js","/_next/static/chunks/0b4w4t19r.01t.js","/_next/static/chunks/0fe3hqctf-h9a.js"],"PostClient"]
+6:I[97367,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T11cb,<h1>NestJs - Request LifeCycle</h1>
+<h2>Request LifeCycle</h2>
+<p>Nest는 <code>Request LifeCycle</code>라고 하는 순서에 따라 요청을 처리하고 응답을 생성한다. <code>Middleware</code>, <code>Pipes</code>, <code>Guards</code> 및 <code>Interceptors</code>를 사용하면 <code>Global</code>, <code>Controller</code>, <code>Route Handler</code>가 작동할 때 <code>Request LifeCycle</code> 동안 특정 코드가 실행되는 위치를 추적하는 것이 어려울 수 있다. 일반적인 요청은 <code>Middleware</code>를 통해 <code>Guards</code>, <code>Interceptors</code>, <code>Pipes</code>,  API의 <code>Interceptors</code>로 이동한다.</p>
+<h3>Middleware</h3>
+<p>Nest는 전역적으로 바인딩된 <code>Middleware</code>( ex. <code>app.use()</code>로 바인딩된 <code>Middleware</code> )를 실행한 다음 경로에서 결정되는 모듈 바인딩 <code>Middleware</code>를 실행한다. <code>Middleware</code>는 <code>Express</code>의 <code>Middleware</code> 작동 방식과 유사하게 바인딩된 순서대로 순차적으로 실행된다. 서로 다른 모듈에 바인딩된 <code>Middleware</code>의 경우 루트 모듈에 바인딩된 <code>Middleware</code>가 먼저 실행된 다음 모듈이 imports 배열에 추가된 순서대로 <code>Middleware</code>가 실행된다.</p>
+<h3>Guards</h3>
+<p><code>Guards</code> 실행은 <code>Global Guards</code>로 시작하여 <code>Controller Guards</code>로 진행되고 마지막으로 <code>Route Guards</code>로 진행된다. <code>Middleware</code>와 마찬가지로 <code>Guards</code>는 바인딩된 순서대로 실행된다.</p>
+<h3>Interceptors</h3>
+<p>대부분의 <code>Interceptors</code>는 <code>Guards</code>와 동일한 패턴을 따르지만 한 가지가 다르다. <code>Interceptors</code>가 <code>RxJS Observable</code>을 반환하므로 <code>Observable</code>은  처음 들어온 순으로 처리된다.  인바운드 요청은 전역, <code>Controller</code>, <code>Route</code> 수준의 확인을 거치지만 요청의 응답이 <code>Controller</code>, <code>Method handler</code>에서 반환된 후, <code>Route</code>에서 <code>Controller</code>, <code>Global</code>순으로 확인한다. <code>Pipes</code>, <code>Controller</code> 또는 <code>Service</code>에서 발생하는 모든 오류는 <code>Interceptors</code>의 <code>catchError</code> 연산자에서 읽을 수 있다.</p>
+<h3>Pipes</h3>
+<p>파이프는 <code>@UsePipes()</code> 매개변수와 관련하여 동일한 <code>FIFO</code> 방식으로 <code>Controller</code>에 대한 표준 전역을 따라 바인딩된 시퀀스를 라우팅한다. 그러나 <code>Routing Param </code>에서 실행 중인 파이프가 여러 개인 경우 파이프는 첫 번째 매개변수부터 마지막 매개변수의 순서로 실행된다. 이는 <code>Route</code> 및 <code>Controller</code> 파이프에도 적용된다.</p>
+<h3>Filters</h3>
+<p>필터는 전역을 우선적으로 처리하지 않는 유일한 구성 요소이다.  필터는 가능한 가장 낮은 수준에서부터 확인한다. 모든 <code>Route</code>에 바인딩된 필터, <code>Controller</code>수준, 마지막으로 전역 수준 필터로 진행된다. 예외는 필터에서 필터로 전달될 수 없다. <code>Route</code> 수준 필터가 예외를 포착하는 경우, <code>Controller</code> 또는 전역 수준 필터는 동일한 예외를 포착할 수 없다. 필터에서 필터로 예외를 전달하는 것과 동일한 효과를 내는 방법은 필터 간에 상속을 사용하는 것이다.</p>
+<h2>Request LifeCycle - 1 사이클</h2>
+<ol>
+<li>Incoming request</li>
+<li>Middleware
+<ul>
+<li>2.1. Globally bound middleware</li>
+<li>2.2. Module bound middleware</li>
+</ul>
+</li>
+<li>Guards
+<ul>
+<li>3.1 Global guards</li>
+<li>3.2 Controller guards</li>
+<li>3.3 Route guards</li>
+</ul>
+</li>
+<li>Interceptors (pre-controller)
+<ul>
+<li>4.1 Global interceptors</li>
+<li>4.2 Controller interceptors</li>
+<li>4.3 Route interceptors</li>
+</ul>
+</li>
+<li>Pipes
+<ul>
+<li>5.1 Global pipes</li>
+<li>5.2 Controller pipes</li>
+<li>5.3 Route pipes</li>
+<li>5.4 Route parameter pipes</li>
+</ul>
+</li>
+<li>Controller (method handler)</li>
+<li>Service (if exists)</li>
+<li>Interceptors (post-request)
+<ul>
+<li>8.1 Route interceptor</li>
+<li>8.2 Controller interceptor</li>
+<li>8.3 Global interceptor</li>
+</ul>
+</li>
+<li>Exception filters
+<ul>
+<li>9.1 route</li>
+<li>9.2 controller</li>
+<li>9.3 global</li>
+</ul>
+</li>
+<li>Server response</li>
+</ol>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"NestJs - Request LifeCycle","date":"2023-12-11T15:23:12.000Z","tags":["NestJs"],"image":null,"html":"$3","timeToRead":2,"seriesName":"NestJs 개념 정리","seriesPosts":[{"name":"NestJs - Dynamic Module","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/DynamicModule/"},{"name":"NestJs - MetaData","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/NestJs/MetaData/"},{"name":"NestJs - Pipes","timeToRead":2,"slug":"/posts/TIL/2023/2023-11/NestJs/Pipes/"},{"name":"NestJs - LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/LifeCycle/"},{"name":"NestJs - Request LifeCycle","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/NestJs/Request-LifeCycle/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"kqFpWts4SOqqLEvvkA56O"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

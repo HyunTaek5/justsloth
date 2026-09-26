@@ -1,0 +1,37 @@
+1:"$Sreact.fragment"
+2:I[67055,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js","/_next/static/chunks/0sgcol9puie22.js","/_next/static/chunks/0b4w4t19r.01t.js","/_next/static/chunks/0fe3hqctf-h9a.js"],"PostClient"]
+6:I[97367,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+3:T9d0,<h1>SQL - INTERSECT</h1>
+<h2>INTERSECT</h2>
+<h3>문법</h3>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="sql" data-theme="dark-plus"><code data-language="sql" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#D4D4D4">[SELECT sql문 1]</span></span>
+<span data-line=""><span style="color:#569CD6">INTERSECT</span></span>
+<span data-line=""><span style="color:#D4D4D4">[SELECT sql문 2]</span></span></code></pre></figure>
+<p>쿼리문 예시</p>
+<ol>
+<li>서로 다른 테이블에 동일한 조건에 조회 가능한 정보가 있는지 확인하는 경우</li>
+</ol>
+<figure data-rehype-pretty-code-figure=""><pre style="background-color:#1E1E1E;color:#D4D4D4" tabindex="0" data-language="sql" data-theme="dark-plus"><code data-language="sql" data-theme="dark-plus" style="display: grid;"><span data-line=""><span style="color:#569CD6">SELECT</span><span style="color:#D4D4D4"> book_txn_date </span><span style="color:#569CD6">FROM</span><span style="color:#D4D4D4"> book_transaction</span></span>
+<span data-line=""><span style="color:#569CD6">INTERSECT</span></span>
+<span data-line=""><span style="color:#569CD6">SELECT</span><span style="color:#D4D4D4"> recent_txn_date </span><span style="color:#569CD6">AS</span><span style="color:#D4D4D4"> book_txn_date </span><span style="color:#569CD6">FROM</span><span style="color:#D4D4D4"> book</span></span>
+<span data-line=""><span style="color:#569CD6">LIMIT</span><span style="color:#B5CEA8"> 10</span><span style="color:#D4D4D4"> OFFSET </span><span style="color:#B5CEA8">0</span><span style="color:#D4D4D4">;</span></span></code></pre></figure>
+<h3>특징</h3>
+<ul>
+<li>두 개의 SECLET 쿼리문의 결과를 처리하는데 사용하는 연산자이다.</li>
+<li>UNION과 사용 조건이 유사하다.</li>
+</ul>
+<h4>사용 가능 조건</h4>
+<ol>
+<li>INTERSECT가 걸린 각각의 SELECT 쿼리는 같은 수의 열을 조회해야한다.</li>
+<li>유사한 데이터 유형을 가지고 있어야한다.</li>
+<li>각각의 SELECT 쿼리는 칼럼이 동일한 순서로 있어야한다.</li>
+</ol>
+<h3>차이점</h3>
+<ul>
+<li>UNION : 데이터가 1번 쿼리문 또는 2번 쿼리문의 조건에 부합되면, 해당 데이터가 출력된다. (OR 와 유사)</li>
+<li>INTERSECT : 데이터가 1번 쿼리문과 2번 쿼리문 2가지 조건에 모두 부합되는 경우에만 해당 데이터가 출력된다. (AND 와 유사)</li>
+</ul>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"SQL - INTERSECT","date":"2023-09-19T15:23:12.000Z","tags":["SQL"],"image":null,"html":"$3","timeToRead":1,"seriesName":"TIL","seriesPosts":[{"name":"TypeORM orIgnore 메소드 Upsert시 중복 데이터 INSERT 검증 방식 변경","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/TypeORM-Upsert-중복제거/"},{"name":"MongoDB.local Seoul 짧은 참가 후기","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/MongoDB-local-참가-후기/"},{"name":"OLTP vs OLAP","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/OLTP VS OLAP/"},{"name":"SQL - UNION / UNION ALL","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-UNION-ALL/"},{"name":"SQL - INTERSECT","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SQL-INTERSECT/"},{"name":"SRE (Site Reliability Engineering) 개념","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/SRE/"},{"name":"인앱 결제 정리","timeToRead":2,"slug":"/posts/TIL/2023/2023-09/인앱-결제/"},{"name":"인앱 결제 환불 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/인앱-결제/환불/"},{"name":"PortOne - 비인증결제 정리","timeToRead":1,"slug":"/posts/TIL/2023/2023-09/PortOne/"},{"name":"PortOne - 인증결제","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/PortOne-인증결제/"},{"name":"PortOne - 웹훅","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/PortOne-웹훅/"},{"name":"제 3자 결제 - 구글","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/제3자-결제-구글/"},{"name":"관찰 가능성 엔지니어링 & 제 3자 결제 - 애플","timeToRead":5,"slug":"/posts/TIL/2023/2023-10/제3자-결제-애플/"},{"name":"OpenTelemetry","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/"},{"name":"OpenTelemetry - 파이프라인, 리소스","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/파이프라인-리소스/"},{"name":"OpenTelemetry - 컨텍스트 전파","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/컨텍스트-전파/"},{"name":"OpenTelemetry 시그널 - 분산 추적","timeToRead":2,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/시그널-분산추적/"},{"name":"OpenTelemetry  - 메트릭","timeToRead":1,"slug":"/posts/TIL/2023/2023-10/OpenTelemetry/메트릭/"},{"name":"AWS - EBS 용량 관리","timeToRead":1,"slug":"/posts/TIL/2023/2023-11/AWS - EBS용량관리/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"kqFpWts4SOqqLEvvkA56O"}
+4:["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
