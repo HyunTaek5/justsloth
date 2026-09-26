@@ -53,5 +53,5 @@
 <li>master가 다운된 경우, slave 중 하나를 master로 승격시켜 가용성을 높일 수 있다.</li>
 <li>데이터의 일관성을 위해 master-slave 간 동기화를 유지해야한다.</li>
 </ul>
-<h2>캐시</h2>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"사용자 수에 따른 규모 확장성","date":"2024-03-13T15:23:12.000Z","tags":["책 스터디"],"image":null,"html":"$3","timeToRead":2,"seriesName":"가상 면접 사례로 배우는 대규모 시스템 설계 기초","seriesPosts":[{"name":"사용자 수에 따른 규모 확장성","timeToRead":2,"slug":"/posts/book/가상-면접-사례-솔루션/1장/"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"kqFpWts4SOqqLEvvkA56O"}
+<h2>캐시</h2>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"사용자 수에 따른 규모 확장성","date":"2024-03-13T15:23:12.000Z","tags":["책 스터디"],"image":null,"html":"$3","timeToRead":2,"seriesName":"가상 면접 사례로 배우는 대규모 시스템 설계 기초","seriesPosts":[{"name":"사용자 수에 따른 규모 확장성","timeToRead":2,"slug":"/posts/book/가상-면접-사례-솔루션/1장/"}]}],[["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_A78YwI2FwIQriPmAeQL9"}
 6:null

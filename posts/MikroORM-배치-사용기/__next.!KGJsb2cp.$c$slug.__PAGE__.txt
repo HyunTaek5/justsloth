@@ -75,7 +75,7 @@ EntityManager의 남용으로 이상한 버그를 유발하고, 결과적으로 
 <p>Nest.js와 MikroORM으로 Batch 애플리케이션을 구현하면서 겪은 이슈에 대해 정리하였다.
 MikroORM의 global EntityManager 사용에 대한 이슈를 해결하기 위해 <code>fork()</code> 메소드를 사용하여 새로운 EntityManager를 생성하여 사용하였다.
 MikroORM이 JPA와 매우 유사한 원리로 ORM을 제공하고 있어, JPA를 이해하고 있는 개발자라면 쉽게 사용할 수 있을 것이다.</p>
-<pre><code></code></pre>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"MikroORM 배치 사용기","date":"2025-03-10T15:23:12.000Z","tags":["MikroORM","NestJs"],"image":"/posts/posts/MikroORM-배치-사용기/assets/1.png","html":"$3","timeToRead":4,"seriesName":"MikroORM 사용기","seriesPosts":[{"name":"MikroORM 배치 사용기","timeToRead":4,"slug":"/posts/MikroORM-배치-사용기/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"kqFpWts4SOqqLEvvkA56O"}
+<pre><code></code></pre>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"MikroORM 배치 사용기","date":"2025-03-10T15:23:12.000Z","tags":["MikroORM","NestJs"],"image":"/posts/posts/MikroORM-배치-사용기/assets/1.png","html":"$3","timeToRead":4,"seriesName":"MikroORM 사용기","seriesPosts":[{"name":"MikroORM 배치 사용기","timeToRead":4,"slug":"/posts/MikroORM-배치-사용기/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"_A78YwI2FwIQriPmAeQL9"}
 4:["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
