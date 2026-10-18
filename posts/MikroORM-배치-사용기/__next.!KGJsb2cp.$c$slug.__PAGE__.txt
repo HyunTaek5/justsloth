@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[67055,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js","/_next/static/chunks/0sgcol9puie22.js","/_next/static/chunks/0b4w4t19r.01t.js","/_next/static/chunks/0fe3hqctf-h9a.js"],"PostClient"]
+2:I[67055,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js","/_next/static/chunks/0sgcol9puie22.js","/_next/static/chunks/0ct8_aib6c6mh.js","/_next/static/chunks/0fe3hqctf-h9a.js"],"PostClient"]
 6:I[97367,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 3:T2a8e,<p><img src="/posts/posts/MikroORM-%EB%B0%B0%EC%B9%98-%EC%82%AC%EC%9A%A9%EA%B8%B0/assets/1.png" alt="이미지1"></p>
@@ -75,7 +75,7 @@ EntityManager의 남용으로 이상한 버그를 유발하고, 결과적으로 
 <p>Nest.js와 MikroORM으로 Batch 애플리케이션을 구현하면서 겪은 이슈에 대해 정리하였다.
 MikroORM의 global EntityManager 사용에 대한 이슈를 해결하기 위해 <code>fork()</code> 메소드를 사용하여 새로운 EntityManager를 생성하여 사용하였다.
 MikroORM이 JPA와 매우 유사한 원리로 ORM을 제공하고 있어, JPA를 이해하고 있는 개발자라면 쉽게 사용할 수 있을 것이다.</p>
-<pre><code></code></pre>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"MikroORM 배치 사용기","date":"2025-03-10T15:23:12.000Z","tags":["MikroORM","NestJs"],"image":"/posts/posts/MikroORM-배치-사용기/assets/1.png","html":"$3","timeToRead":4,"seriesName":"MikroORM 사용기","seriesPosts":[{"name":"MikroORM 배치 사용기","timeToRead":4,"slug":"/posts/MikroORM-배치-사용기/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"bEfj1YWTvAJ08L9O1bDJ0"}
+<pre><code></code></pre>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"MikroORM 배치 사용기","date":"2025-03-10T15:23:12.000Z","tags":["MikroORM","NestJs"],"image":"/posts/posts/MikroORM-배치-사용기/assets/1.png","html":"$3","timeToRead":4,"seriesName":"MikroORM 사용기","seriesPosts":[{"name":"MikroORM 배치 사용기","timeToRead":4,"slug":"/posts/MikroORM-배치-사용기/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3zBHUs-n0J-EyY-HD6ukS"}
 4:["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
