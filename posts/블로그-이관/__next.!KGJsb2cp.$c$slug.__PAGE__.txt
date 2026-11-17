@@ -1,6 +1,42 @@
 1:"$Sreact.fragment"
-2:I[67055,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js","/_next/static/chunks/0sgcol9puie22.js","/_next/static/chunks/0ct8_aib6c6mh.js","/_next/static/chunks/0fe3hqctf-h9a.js"],"PostClient"]
-3:I[97367,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"블로그 이관","date":"2024-02-15T23:45:08.000Z","tags":["블로그 이관"],"image":"/posts/posts/블로그-이관/assets/0.jpeg","html":"<p><img src=\"/posts/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EA%B4%80/assets/0.jpeg\" alt=\"이미지1\"></p>\n<p>블로그를 새로 오픈하게 되었습니다. 🎉🎉🎉</p>\n<p>기존에 운영하던 <a href=\"https://eight20.tistory.com\">Tistory 블로그</a>에서 다음과 같은 단점들로 인해 현재의 블로그로 이전하게 되었습니다.</p>\n<ol>\n<li>마크다운 형식이 아닌 자체 에디터를 지원하다보니 글을 작성하거나 수정할 때 불편했던 점</li>\n<li><a href=\"https://notice.tistory.com/2664\">Tistory에서 제공하던 Open API가 2024년 2월말부로 종료</a>되어 추가적인 활용이 불가능해진 점</li>\n</ol>\n<p>블로그는 Github Page 정적 페이지 호스팅으로 배포되어있는 상태이며,\nVallista님의 Vallista-land 소스를 기본으로 <strong>Gatsby v5 버전 업데이트</strong> 및 <strong>Node 버전 18 LTS</strong>로 업데이트하여 사용하고 있습니다.</p>\n<p><a href=\"https://eight20.tistory.com\">기존의 블로그</a>와 동일하게 발생한 이슈 처리하면서 알게된 점, 새로운 기술을 공부하면 알게된 점을 줌심으로 공유될 예정입니다.</p>","timeToRead":1,"seriesName":null,"seriesPosts":[]}],[["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Vt_pfZkRY3bh94G-QEESq"}
-5:null
+2:"/_next/static/chunks/12zsrqt_dtezl.js"
+3:"/_next/static/chunks/30cmx0v2-u4c7.js"
+4:"/_next/static/chunks/3urzch0u3bmw3.js"
+5:I[11349,["$2","$3","$4"],"default"]
+6:I[8499,["$2","$3","$4"],"ThemeProvider"]
+7:I[39756,["$2","$3","$4"],"default"]
+8:I[37457,["$2","$3","$4"],"default"]
+9:"/_next/static/chunks/1mtm-xjnzqkjy.js"
+a:"/_next/static/chunks/42z5-kv32t0u-.js"
+b:I[29306,["$2","$3","$4","$9","$a"],"default"]
+c:I[54576,["$2","$3","$4"],"GoogleAnalytics"]
+10:"/_next/static/chunks/2dwyh47j_3csu.js"
+11:I[5949,["$2","$3","$4","$10","$a"],"Loader"]
+12:"DesktopEasterEgg"
+13:I[62424,["$2","$3","$4","$10","$a"],"$12"]
+14:I[40710,["$2","$3","$4","$10","$a"],"LayoutWrapper"]
+1a:"/_next/static/chunks/2ss11_ak-_051.js"
+1b:I[67055,["$2","$3","$4","$10","$a","$1a"],"PostClient"]
+1c:I[97367,["$2","$3","$4"],"OutletBoundary"]
+1d:"$Sreact.suspense"
+20:"ViewportBoundary"
+21:I[97367,["$2","$3","$4"],"$20"]
+22:"MetadataBoundary"
+23:I[97367,["$2","$3","$4"],"$22"]
+e:X
+18:X
+18:C
+19:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L1b",null,{"title":"블로그 이관","date":"2024-02-15T23:45:08.000Z","tags":["블로그 이관"],"image":"/posts/posts/블로그-이관/assets/0.jpeg","html":"<p><img src=\"/posts/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EA%B4%80/assets/0.jpeg\" alt=\"이미지1\"></p>\n<p>블로그를 새로 오픈하게 되었습니다. 🎉🎉🎉</p>\n<p>기존에 운영하던 <a href=\"https://eight20.tistory.com\">Tistory 블로그</a>에서 다음과 같은 단점들로 인해 현재의 블로그로 이전하게 되었습니다.</p>\n<ol>\n<li>마크다운 형식이 아닌 자체 에디터를 지원하다보니 글을 작성하거나 수정할 때 불편했던 점</li>\n<li><a href=\"https://notice.tistory.com/2664\">Tistory에서 제공하던 Open API가 2024년 2월말부로 종료</a>되어 추가적인 활용이 불가능해진 점</li>\n</ol>\n<p>블로그는 Github Page 정적 페이지 호스팅으로 배포되어있는 상태이며,\nVallista님의 Vallista-land 소스를 기본으로 <strong>Gatsby v5 버전 업데이트</strong> 및 <strong>Node 버전 18 LTS</strong>로 업데이트하여 사용하고 있습니다.</p>\n<p><a href=\"https://eight20.tistory.com\">기존의 블로그</a>와 동일하게 발생한 이슈 처리하면서 알게된 점, 새로운 기술을 공부하면 알게된 점을 줌심으로 공유될 예정입니다.</p>","timeToRead":1,"seriesName":null,"seriesPosts":[]}],[["$","script","script-0",{"src":"/_next/static/chunks/2ss11_ak-_051.js","async":true}]],["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}],"p":"$@1f","v":null,"s":"$e"}}]]
+16:[["children",{"s":{"n":"slug","t":"c","k":"posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EA%B4%80","s":["desktop","posts","resume"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@17","v":"$18","s":"$e"},"c":"$Q19"}]]
+f:[["children",{"s":"(blog)","h":131168,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2dwyh47j_3csu.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/42z5-kv32t0u-.js","async":true}]],["$","$L11",null,{"children":[["$","$L13",null,{}],["$","$L14",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","$Lb",null,{}],[]]}]}]]}]]}],"p":"$@15","v":null,"s":"$e"},"c":"$Q16"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/12zsrqt_dtezl.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/30cmx0v2-u4c7.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/3urzch0u3bmw3.js","async":true}]],["$","html",null,{"lang":"ko","children":[["$","body",null,{"children":[["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","$Lb",null,{}],[]]}]}]}],["$","div",null,{"id":"modal-root"}]]}],["$","$Lc",null,{"gaId":"G-EEPZ0FD9TM"}]]}]]}],"p":"$@d","v":null,"s":"$e"},"c":"$Qf"},"h":{"r":["$","$1","h",{"children":[null,["$","$L21",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L23",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"블로그 이관 · Dylan"}],["$","meta","1",{"name":"description","content":"블로그 이관"}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","3",{"name":"google-site-verification","content":"wPI09aIL9InuxJwKlMkLE-4mzzfbNhQqRCJ760C-8nQ"}],["$","meta","4",{"name":"naver-site-verification","content":"ea1f2e6ed93587bf3729ae4bc705c33388976589"}],["$","meta","5",{"property":"og:title","content":"블로그 이관"}],["$","meta","6",{"property":"og:description","content":"블로그 이관"}],["$","meta","7",{"property":"og:image","content":"https://justsloth.com/posts/posts/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EA%B4%80/assets/0.jpeg"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"property":"article:published_time","content":"2024-02-15T23:45:08.000Z"}],["$","meta","10",{"property":"article:tag","content":"블로그 이관"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Blog"}],["$","meta","13",{"name":"twitter:description","content":"08시 20분 개발기록"}],["$","meta","14",{"name":"twitter:image","content":"https://justsloth.com/profile.jpg"}]]}]}],null]}],null]}],"p":"$@24","v":null,"s":"$e"}},"a":"$@25","u":"$@26","b":"gzUKIVeQ57zshhzhO2Np3"}
+1e:null
+e:300
+26:true
+e:C
+25:0
+17:"$undefined"
+15:"$undefined"
+d:"$undefined"
+24:"$undefined"
+1f:"$undefined"

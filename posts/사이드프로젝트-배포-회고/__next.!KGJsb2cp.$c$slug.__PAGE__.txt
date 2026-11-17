@@ -1,8 +1,31 @@
 1:"$Sreact.fragment"
-2:I[67055,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js","/_next/static/chunks/0sgcol9puie22.js","/_next/static/chunks/0ct8_aib6c6mh.js","/_next/static/chunks/0fe3hqctf-h9a.js"],"PostClient"]
-6:I[97367,["/_next/static/chunks/0n..p7j3x34_..js","/_next/static/chunks/05g64u7ibp5yn.js","/_next/static/chunks/0d3shmwh5_nmn.js","/_next/static/chunks/0qhq2x16w8ib..js"],"OutletBoundary"]
-7:"$Sreact.suspense"
-3:T1afb,<h1>사이드 프로젝트 배포 회고</h1>
+2:"/_next/static/chunks/12zsrqt_dtezl.js"
+3:"/_next/static/chunks/30cmx0v2-u4c7.js"
+4:"/_next/static/chunks/3urzch0u3bmw3.js"
+5:I[11349,["$2","$3","$4"],"default"]
+6:I[8499,["$2","$3","$4"],"ThemeProvider"]
+7:I[39756,["$2","$3","$4"],"default"]
+8:I[37457,["$2","$3","$4"],"default"]
+9:"/_next/static/chunks/1mtm-xjnzqkjy.js"
+a:"/_next/static/chunks/42z5-kv32t0u-.js"
+b:I[29306,["$2","$3","$4","$9","$a"],"default"]
+c:I[54576,["$2","$3","$4"],"GoogleAnalytics"]
+10:"/_next/static/chunks/2dwyh47j_3csu.js"
+11:I[5949,["$2","$3","$4","$10","$a"],"Loader"]
+12:"DesktopEasterEgg"
+13:I[62424,["$2","$3","$4","$10","$a"],"$12"]
+14:I[40710,["$2","$3","$4","$10","$a"],"LayoutWrapper"]
+1a:"/_next/static/chunks/2ss11_ak-_051.js"
+1b:I[67055,["$2","$3","$4","$10","$a","$1a"],"PostClient"]
+20:"ViewportBoundary"
+21:I[97367,["$2","$3","$4"],"$20"]
+22:"MetadataBoundary"
+23:I[97367,["$2","$3","$4"],"$22"]
+24:"$Sreact.suspense"
+e:X
+18:X
+18:C
+1c:T1afb,<h1>사이드 프로젝트 배포 회고</h1>
 <p>사이드 프로젝트 배포 이슈 정리</p>
 <p>기존에 작업하던 <a href="https://github.com/Fashion-Cloud">사이드 프로젝트</a> POC 발표 기간이 별로 남지 않았고, AWS 비용 지원도 나와서 <a href="https://cloudtype.io/">CloudType</a>, <a href="https://neon.tech/">Neon</a> 조합으로 무료 플랜을 활용해서 배포해두었던 백엔드 인프라를 AWS 기반으로 마이그레이션하고, 프론트 신규 배포를 진행하였다. 배포하면서 여러 이슈 상황이 있었는데 해당 히스토리를 정리해두었다.</p>
 <p>AWS 서비스의 경우, 기존에 static 파일 저장 스토리지 용도로 사용하던 S3를 유지한 채, EC2를 추가적으로 사용하였다. EC2 인스턴스 유형의 경우, 유효한 트래픽이 없는 상태에서 RDS 서비스를 사용하기에는 비용적으로 팀원들에게 부담이 되므로 DB를 인스턴스 내부에 docker 컨테이너로 띄울 계획으로 vCPU가 2개에 메모리가 2Gib인 t3.small를 사용하였다.</p>
@@ -27,7 +50,20 @@
 <span data-line=""><span style="color:#D4D4D4">	ssl_certificate    </span><span style="color:#D16969">/etc/</span><span style="color:#4EC9B0">ssl</span><span style="color:#D4D4D4">/your_domain_name.pem;</span></span>
 <span data-line=""><span style="color:#D4D4D4">	ssl_certificate_key    </span><span style="color:#D16969">/etc/</span><span style="color:#4EC9B0">ssl</span><span style="color:#D4D4D4">/your_domain_name.</span><span style="color:#4EC9B0">key</span><span style="color:#D4D4D4">;</span></span>
 <span data-line=""><span style="color:#D4D4D4">	....</span></span>
-<span data-line=""><span style="color:#D4D4D4">}</span></span></code></pre></figure>0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"title":"사이드 프로젝트 배포 회고","date":"2023-10-23T15:23:12.000Z","tags":["사이드 프로젝트"],"image":null,"html":"$3","timeToRead":3,"seriesName":"배포 회고","seriesPosts":[{"name":"사이드 프로젝트 배포 회고","timeToRead":3,"slug":"/posts/사이드프로젝트-배포-회고/"},{"name":"Docker-compose, Nginx와 함께하는 무중단 배포","timeToRead":2,"slug":"/posts/TIL/2023/2023-11/Nginx/"},{"name":"2023 사내 프로젝트 회고","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/프로젝트-회고/"}]}],["$L4"],"$L5"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"Vt_pfZkRY3bh94G-QEESq"}
-4:["$","script","script-0",{"src":"/_next/static/chunks/0fe3hqctf-h9a.js","async":true}]
-5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
-8:null
+<span data-line=""><span style="color:#D4D4D4">}</span></span></code></pre></figure>19:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","$L1b",null,{"title":"사이드 프로젝트 배포 회고","date":"2023-10-23T15:23:12.000Z","tags":["사이드 프로젝트"],"image":null,"html":"$1c","timeToRead":3,"seriesName":"배포 회고","seriesPosts":[{"name":"사이드 프로젝트 배포 회고","timeToRead":3,"slug":"/posts/사이드프로젝트-배포-회고/"},{"name":"Docker-compose, Nginx와 함께하는 무중단 배포","timeToRead":2,"slug":"/posts/TIL/2023/2023-11/Nginx/"},{"name":"2023 사내 프로젝트 회고","timeToRead":2,"slug":"/posts/TIL/2023/2023-12/프로젝트-회고/"}]}],["$L1d"],"$L1e"]}],"p":"$@1f","v":null,"s":"$e"}}]]
+16:[["children",{"s":{"n":"slug","t":"c","k":"posts/%EC%82%AC%EC%9D%B4%EB%93%9C%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%ED%8F%AC-%ED%9A%8C%EA%B3%A0","s":["desktop","posts","resume"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@17","v":"$18","s":"$e"},"c":"$Q19"}]]
+f:[["children",{"s":"(blog)","h":131168,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/2dwyh47j_3csu.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/42z5-kv32t0u-.js","async":true}]],["$","$L11",null,{"children":[["$","$L13",null,{}],["$","$L14",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","$Lb",null,{}],[]]}]}]]}]]}],"p":"$@15","v":null,"s":"$e"},"c":"$Q16"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/12zsrqt_dtezl.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/30cmx0v2-u4c7.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/3urzch0u3bmw3.js","async":true}]],["$","html",null,{"lang":"ko","children":[["$","body",null,{"children":[["$","$L5",null,{"children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[["$","$Lb",null,{}],[]]}]}]}],["$","div",null,{"id":"modal-root"}]]}],["$","$Lc",null,{"gaId":"G-EEPZ0FD9TM"}]]}]]}],"p":"$@d","v":null,"s":"$e"},"c":"$Qf"},"h":{"r":["$","$1","h",{"children":[null,["$","$L21",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L23",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$24",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"사이드 프로젝트 배포 회고 · Dylan"}],["$","meta","1",{"name":"description","content":"사이드 프로젝트 배포 회고"}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","meta","3",{"name":"google-site-verification","content":"wPI09aIL9InuxJwKlMkLE-4mzzfbNhQqRCJ760C-8nQ"}],["$","meta","4",{"name":"naver-site-verification","content":"ea1f2e6ed93587bf3729ae4bc705c33388976589"}],["$","meta","5",{"property":"og:title","content":"사이드 프로젝트 배포 회고"}],["$","meta","6",{"property":"og:description","content":"사이드 프로젝트 배포 회고"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"property":"article:published_time","content":"2023-10-23T15:23:12.000Z"}],["$","meta","9",{"property":"article:tag","content":"사이드 프로젝트"}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Blog"}],["$","meta","12",{"name":"twitter:description","content":"08시 20분 개발기록"}],["$","meta","13",{"name":"twitter:image","content":"https://justsloth.com/profile.jpg"}]]}]}],null]}],null]}],"p":"$@25","v":null,"s":"$e"}},"a":"$@26","u":"$@27","b":"gzUKIVeQ57zshhzhO2Np3"}
+28:I[97367,["$2","$3","$4"],"OutletBoundary"]
+1d:["$","script","script-0",{"src":"/_next/static/chunks/2ss11_ak-_051.js","async":true}]
+1e:["$","$L28",null,{"children":["$","$24",null,{"name":"Next.MetadataOutlet","children":"$@29"}]}]
+e:300
+29:null
+27:true
+e:C
+26:0
+17:"$undefined"
+15:"$undefined"
+d:"$undefined"
+25:"$undefined"
+1f:"$undefined"
